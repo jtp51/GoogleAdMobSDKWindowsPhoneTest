@@ -27,8 +27,15 @@ namespace GoogleAdMobSDK_WindowsPhone
             };
 
             //Set up delegates
+            //Ad reception
             bannerAd.ReceivedAd += bannerAd_ReceivedAd;
             bannerAd.FailedToReceiveAd += bannerAd_FailedToReceiveAd;
+            //Overlay
+            bannerAd.DismissingOverlay += bannerAd_DismissingOverlay;
+            bannerAd.ShowingOverlay += bannerAd_ShowingOverlay;
+            //Application
+            bannerAd.LeavingApplication += bannerAd_LeavingApplication;
+            
 
 
             AdRequest adRequest = new AdRequest();
@@ -38,14 +45,29 @@ namespace GoogleAdMobSDK_WindowsPhone
             bannerAd.LoadAd(adRequest);
         }
 
+        void bannerAd_LeavingApplication(object sender, AdEventArgs e)
+        {
+            System.Console.WriteLine("Leaving the app " + e.ToString());
+        }
+
+        void bannerAd_ShowingOverlay(object sender, AdEventArgs e)
+        {
+            System.Console.WriteLine("Showing overlay " + e.ToString());
+        }
+
+        void bannerAd_DismissingOverlay(object sender, AdEventArgs e)
+        {
+            System.Console.WriteLine("Dismissing overlay " + e.ToString());
+        }
+
         void bannerAd_ReceivedAd(object sender, AdEventArgs e)
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Ad received " + e.ToString());
         }
 
         void bannerAd_FailedToReceiveAd(object sender, AdErrorEventArgs e)
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Failed to receive Ad " + e.ToString());
         }
 
     }
