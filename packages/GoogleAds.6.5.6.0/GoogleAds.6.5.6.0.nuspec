@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>GoogleAds</id>
+    <version>6.5.6.0</version>
+    <authors>Google Inc.</authors>
+    <owners>Google Inc.</owners>
+    <licenseUrl>https://www.google.com/adsense/localized-terms</licenseUrl>
+    <projectUrl>http://www.google.com/ads/admob/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>SDK for AdMob.</description>
+    <summary>SDK for AdMob.</summary>
+    <language>en-US</language>
+    <tags>Ads Advertising Advertisement Commercial Monetization</tags>
+  </metadata>
+</package>
