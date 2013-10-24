@@ -14,11 +14,12 @@ namespace GoogleAdMobSDK_WindowsPhone
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        private AdView bannerAd;
         // Constructor
         public MainPage()
         {
             InitializeComponent();
-            AdView bannerAd = new AdView
+            bannerAd = new AdView
             {
                 Format = AdFormats.Banner,
                 AdUnitID = "",
@@ -52,7 +53,7 @@ namespace GoogleAdMobSDK_WindowsPhone
 
         void bannerAd_ShowingOverlay(object sender, AdEventArgs e)
         {
-            System.Console.WriteLine("Showing overlay " + e.ToString());
+            
         }
 
         void bannerAd_DismissingOverlay(object sender, AdEventArgs e)
@@ -63,6 +64,7 @@ namespace GoogleAdMobSDK_WindowsPhone
         void bannerAd_ReceivedAd(object sender, AdEventArgs e)
         {
             System.Console.WriteLine("Ad received " + e.ToString());
+            
         }
 
         void bannerAd_FailedToReceiveAd(object sender, AdErrorEventArgs e)

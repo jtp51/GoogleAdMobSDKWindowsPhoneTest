@@ -17,3 +17,7 @@ c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\
 c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\obj\Debug\GoogleAdMobSDK-WindowsPhone.dll
 c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\obj\Debug\GoogleAdMobSDK-WindowsPhone.pdb
 c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\obj\Debug\XapCacheFile.xml
+c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\Bin\Debug\GoogleAds.dll
+c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\Bin\Debug\GoogleAds.pdb
+c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\Bin\Debug\GoogleAds.xml
+c:\users\todd\documents\visual studio 2013\Projects\GoogleAdMobSDK-WindowsPhone\GoogleAdMobSDK-WindowsPhone\obj\Debug\GoogleAdMobSDK-WindowsPhone.csprojResolveAssemblyReference.cache
